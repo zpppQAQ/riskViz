@@ -11,12 +11,12 @@ function App() {
   const [searchKeyword, setSearchKeyword] = useState(''); // state for searching risk factors
   const [sortOrder, setSortOrder] = useState(''); // Add a state for sort order
   const [chosenChartValue,setChosenChartValue] = useState('default'); //state for category selection
-
+  const dataPath = `${process.env.PUBLIC_URL}/data/dataset.csv`;
   //fetching data
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/dataset.csv');
+        const response = await fetch(dataPath);
         const csvData = await response.text();
         const parsedData = await parseCsvData(csvData);
         setData(parsedData);

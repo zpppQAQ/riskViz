@@ -67,9 +67,9 @@ function MyGoogleMap(props) {
     );
     setInfoWindow({ position: item, items: samePositionItems });
   };
-  const redMark = "/redDot.png";
-  const yellowMark = "/yellowDot.png";
-  const greenMark = "/greenDot.png";
+  const redMark = `${process.env.PUBLIC_URL}/img/redDot.png`;
+  const yellowMark = `${process.env.PUBLIC_URL}/img/yellowDot.png`;
+  const greenMark = `${process.env.PUBLIC_URL}/img/greenDot.png`;
   return (
     <div>
       <GoogleMap
