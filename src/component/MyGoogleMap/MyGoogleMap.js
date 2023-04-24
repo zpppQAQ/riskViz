@@ -114,7 +114,7 @@ function MyGoogleMap(props) {
         <option value="2080">2080</option>
       </select>
       <div className={classes.markInfo}>
-        <h2 className={classes.taCenter}>Attendtion!</h2>
+        <h2 className={classes.taCenter}>Map Mark Tooltip</h2>
         <div className={classes.attentionInfoWrapper}>
           <div>
             <img src={redMark} alt="redMark" />
