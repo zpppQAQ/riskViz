@@ -1,0 +1,58 @@
+
+.header{
+    border: 4px solid rgb(0, 140, 255);
+}
+.everyLine{
+    border: 2px solid #666;
+}
+.pagination{
+    width: 100%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    overflow: auto;
+    display: block;
+}
+  
+thead{
+    position: sticky;
+    top: 0;
+}
+  
+th{
+    text-align: left;
+    padding: 8px;
+    min-width: 150px;
+}
+
+.filterBox{
+    position: absolute;
+    left: 1000px;
+    top: 684px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+}
+.filterBox:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+}
+
+  
+.tableArea{
+    margin-top: 100px;
+}
+
+.riskSelectBox{
+    position: relative;
+    top: 0;
+    left: 735px;
+    height: 40px;
+}

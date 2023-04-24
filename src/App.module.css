@@ -1,0 +1,27 @@
+.map{
+    width: 800px;
+    height: 450px;
+    /* background-color: #bfa; */
+}
+.chart{
+    width: 900px;
+    height: 500px;
+    /* background-color: aqua; */
+}
+.topWrapper{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.ch{
+    width: 1000px;
+    height: 10000px;
+    margin-left: 50px;
+}
+.categorySelectWrapper{
+    width: 1000px;
+    text-align: center;
+    /* background-color: #bfa; */
+}
+.categorySelect{
+    height: 30px;
+}

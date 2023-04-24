@@ -1,0 +1,29 @@
+.controller{
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+.attentionInfoWrapper{
+    display: flex;
+    flex-flow: column;
+    /* text-align: left; */
+    padding-left: 100px;
+}
+.taCenter{
+    text-align: center;
+}
+.markInfo{
+    width: 400px;
+    height: 190px;
+    border: 1px solid black;
+    font-size: 14px;
+    margin: 0 auto;
+    background-color: green;
+    line-height: 20px;
+    font-family: Arial;
+    border-radius: 10px;
+    box-shadow: 0 0 0 10px white;
+    color: white;
+    font-weight: bold;
+}
