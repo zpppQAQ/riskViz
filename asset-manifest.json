@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/zpppQAQ/riskViz/static/css/main.5e217764.css",
+    "main.js": "/zpppQAQ/riskViz/static/js/main.8b917860.js",
+    "static/css/998.37a014bc.chunk.css": "/zpppQAQ/riskViz/static/css/998.37a014bc.chunk.css",
+    "static/js/998.d874486c.chunk.js": "/zpppQAQ/riskViz/static/js/998.d874486c.chunk.js",
+    "index.html": "/zpppQAQ/riskViz/index.html",
+    "main.5e217764.css.map": "/zpppQAQ/riskViz/static/css/main.5e217764.css.map",
+    "main.8b917860.js.map": "/zpppQAQ/riskViz/static/js/main.8b917860.js.map",
+    "998.37a014bc.chunk.css.map": "/zpppQAQ/riskViz/static/css/998.37a014bc.chunk.css.map",
+    "998.d874486c.chunk.js.map": "/zpppQAQ/riskViz/static/js/998.d874486c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e217764.css",
+    "static/js/main.8b917860.js"
+  ]
+}
